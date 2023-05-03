@@ -64,13 +64,20 @@ body {
     color: var(--text-color);
     transition: background .4s; /*for dark theme animation*/
 }
-
-div .navbar ul li {
+.header {
+    height: 600px;
+    width: 100%;
+    background-image: url(../image/header-image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+}
+.header .navbar ul li {
     list-style: none;
     letter-spacing: .1rem;
     font-size: var(--small-font-size);
+    cursor: pointer;
 }
-div .navbar ul li button {
+.header .navbar ul li button {
     background: none;
     letter-spacing: .1rem;
     font-size: var(--small-font-size);
@@ -79,27 +86,26 @@ div .navbar ul li button {
     text-transform: uppercase;
     font-weight: var(--font-semi-bold);
     color: var(--text-color);
+    cursor: pointer;
 }
-div .navbar ul {
+.header .navbar ul {
     display: flex;
     gap: 2.5rem;
     margin-left: auto;
 }
-div .navbar {
-    background: #dfe5db;
+.header .navbar {
+    /* background: #dfe5db; */
     display: flex;
     line-height: 3.5rem;
     padding: 0 2rem;
     text-transform: uppercase;
     font-weight: var(--font-semi-bold);
 }
-div .navbar h2 {
+.header .navbar h2 {
     font-size: var(--biggest-font-size);
     font-family: var(--title-font);
     
 }
 
-img {
-    height: 200px;
-    width: auto;
-}
+
+
