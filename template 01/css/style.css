@@ -76,6 +76,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
+    width: 100%;
     margin: .5rem;
 }
 .header .navbar ul li {
@@ -344,10 +345,16 @@ footer {
     background: var(--text-color-light);
     color: var(--body-color);
 }
-
+/* ===== Mobile Screen ===== */
 @media (width <= 600px) {
     body {
         background: #355c27;
+    }
+    .content__items .img__card{
+        flex-direction: column;
+    }
+    .main__container {
+        gap: 16rem;
     }
 }
 
