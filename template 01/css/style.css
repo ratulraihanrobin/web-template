@@ -360,24 +360,24 @@ footer {
 
 @media (600px < width <= 768px) {
     body {
-        background: #e96531;
+        /* background: #e96531; */
     }
 }
 
 @media ( 768px < width <= 992px) {
     body {
-        background: #2a7ddb;
+        /* background: #2a7ddb; */
     }
 }
 
 @media (992px < width <= 1200px) {
     body {
-        background: #e612d4;
+        /* background: #e612d4; */
     }
 }
 
 @media (width > 1200px) {
     body {
-        background: #700df1;
+        /* background: #700df1; */
     }
 }
