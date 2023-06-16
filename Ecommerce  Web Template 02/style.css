@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(234, 234, 234, 1) 100%
+  );
+  width: 100vw;
+  height: 650px;
+}
+
+header {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 50px;
+}
